@@ -1,0 +1,142 @@
+@font-face {
+  font-family: myFont;
+  src: url("assets/fonts/GoogleSans-Medium.ttf") format("truetype");
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  padding-top: 10%;
+}
+.google {
+  font-family: myFont;
+  text-align: -webkit-center;
+  letter-spacing: -3px;
+}
+
+#g1{
+  color: #4285F4;
+  font-size: 92px;
+}
+#o1{
+  color: #eA4335;
+  font-size: 89px;
+}
+#o2{
+  color: #FBBC05;
+  font-size: 89px;
+}
+#g2{
+  color: #4285F4;
+  font-size: 89px;
+}
+#l{
+  color: #34A853;
+  font-size: 89px;
+}
+#e{
+  color: #eA4335;
+  display: inline-block;
+  font-size: 89px;
+  margin-left: -5px;
+  transform: rotate(-25deg);
+}
+
+#search {
+  height: 44px;
+  width: 582px;
+  border: 1px solid #dadce0;
+  border-radius: 25px;
+  padding: 5px;
+  text-align: -webkit-center;
+}
+#search:focus-within{
+  box-shadow: 0 0 8px rgba(33,33,33,.2);
+}
+#search:hover{
+  box-shadow: 0 0 8px rgba(33,33,33,.2);
+}
+#searchcontainer{
+  border: none;
+  width: 487px;
+  text-align: left;
+  padding-bottom: 4px;
+  height: 34px;
+}
+#searchcontainer:focus{
+  outline:none;
+}
+#searchcontainer::-webkit-search-cancel-button{
+  display: none;
+}
+
+#tooltip{
+  display: inline-block;
+  position: relative;
+}
+.arrow_box:after {
+	bottom: 100%;
+	left: 40%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+
+#tooltip #tooltiptext{
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 0px;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: -150%;
+
+  
+
+}
+#tooltip:hover #tooltiptext {
+  visibility: visible;
+}
+#tooltiptext{
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+#gsrch{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+}
+#gsrch:hover {
+  border-color: #c6c6c6;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#buttons{
+  margin-top: 20px;
+}

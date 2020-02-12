@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./styles.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+<body class="container">
+  <div class="google">
+    <span id="g1">G</span><span id="o1">o</span><span id="o2">o</span><span id="g2">g</span><span id="l">l</span><span id="e">e</span>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-between" id="search">
+        <i class="fa fa-search" style="margin-top: 6px;margin-left: 5px;height: 20px;width: 20px;color: #c6c6c6;" aria-hidden="true"></i>      
+      <input  onkeypress=input(event) class="justify-content-center" type="search" id="searchcontainer" >
+      <!-- <i class="fa fa-microphone" style="padding: 7px;height: 20px;width: 20px;padding-right: 20px;color: #c6c6c6;""></i> -->
+        <div id="tooltip">
+          <a href="https://www.google.com" id="searchicon">
+            <img  src="./assets/mic.png" id="voice" style="margin-top: 6px;margin-right: 10px;height: 19px;width: 14px;background-size: 24px;">
+          </a>
+          <span class="arrow_box" id="tooltiptext">Search by Voice</span>  
+        </div>
+      </div>
+  </div>
+  <div class="d-flex justify-content-center" id='buttons'> 
+    <button id="gsrch" onclick="search()">Google Search</button>
+    <button id="gsrch" onclick="lucky()">I'm Feeling Lucky</button>
+  </div>
+  <div class='d-flex justify-content-center' style="font-family: myFont; font-weight: 500;">
+    @Kiruhtik Raaj
+  </div>
+  
+
+
+
+  <!-- Script -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
